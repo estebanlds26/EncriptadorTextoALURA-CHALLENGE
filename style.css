@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #1B1D33;
+    color: aliceblue;
+}
+
+.logo{
+    width: 200px;
+    border-radius: 60px;
+}
+
+.img{
+    width: 200px;
+    border-radius: 60px;
+}
+
+span{
+    color: aqua;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.input-field {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: aqua;
+    color: #1B1D33;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(8, 189, 189);
+}
+
+.result {
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.copy-button {
+    background-color: aqua;
+    color: #1B1D33;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.copy-button:hover {
+    background-color: rgb(8, 189, 189);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+    color: black;
+    border-radius: 25px;
+}
+
+.footer-content h2 {
+    font-size: 3em;
+}
+
+.footer-content h4{
+    font-size: 1.5em;
+   text-align: center;
+}
+/* resposive para tables */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+      width: 90%;
+      margin: 20px auto;
+    }
+    .input-field {
+      padding: 5px;
+    }
+    .button {
+      padding: 5px 10px;
+    }
+    .result {
+      padding: 10px;
+    }
+    .footer {
+      height: 150px;
+      padding: 20px;
+    }
+    .footer-content {
+      font-size: 2em;
+    }
+  }
+  /* responsive para movil */
+  @media (min-width: 480px) and (max-width: 767px) {
+    .container {
+      width: 100%;
+      margin: 10px auto;
+    }
+    .logo {
+      width: 150px;
+    }
+    .img {
+      width: 150px;
+    }
+    .input-field {
+      padding: 3px;
+    }
+    .button {
+      padding: 3px 6px;
+    }
+    .result {
+      padding: 5px;
+    }
+    .footer {
+      height: 100px;
+      padding: 10px;
+    }
+    .footer-content {
+      font-size: 1.5em;
+    }
+  }
